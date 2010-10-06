@@ -3,14 +3,20 @@ http://github.com/teleject/HTML5-GeoLocation-jQuery-Plugin
 
 * See plugin's comments for more information.
 
-* Demo coming soon, but here are some tips:
+* Simple demo at http://2010.incontrolconference.com/eats/
+
+* Some tips to get up and running:
 
 - To get plugin to work on YOUR own site, you will need to get a Google Maps API registered to your domain: http://code.google.com/apis/maps/signup.html
 - Use Microformats' hCard for addresses
 - If possible, use longitude and latitude within hCard for quicker response times
 
-
+Thanks for your interest in this plugin! 
 
 Best,
 Christopher Schmitt
 http://christopherschmitt.com/
+-- 
+Attend the jQuery Summit
+http://jquerysummit.com/
+Nov. 16 and 17th, 2010
