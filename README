@@ -5,6 +5,8 @@ http://github.com/teleject/HTML5-GeoLocation-jQuery-Plugin
 
 * Simple demo at http://2010.incontrolconference.com/eats/
 
+* For UK readers, try this demo: http://2010.incontrolconference.com/eats/uk.html
+
 * Some tips to get up and running:
 
 - To get plugin to work on YOUR own site, you will need to get a Google Maps API registered to your domain: http://code.google.com/apis/maps/signup.html
