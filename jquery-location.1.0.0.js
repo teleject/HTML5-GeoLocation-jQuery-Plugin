@@ -208,8 +208,8 @@ if (typeof(jQuery) == 'undefined')
 
 		geocoder.geocode(req,function(responses,status){
 		  	if (status == "OK") {
-				var li = $("<h2></h2>").text(responses[0].formatted_address);
-				$(options.geodata).empty().append(li);
+				var geoloc = responses[0].formatted_address; 
+				$(options.geodata).text(geoloc);
 			} else {
 				//error
 			}
