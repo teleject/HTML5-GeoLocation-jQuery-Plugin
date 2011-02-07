@@ -195,9 +195,9 @@ if (typeof(jQuery) == 'undefined')
 	formatDistance : function ( distance ) {
 		var dist = distance, meters_to_mile = 1609.344;
 		if (dist > (meters_to_mile/10)) {
-			dist = "~"+ (Math.round((dist/meters_to_mile)*10) / 10) +" miles";
+			dist = (Math.round((dist/meters_to_mile)*10) / 10) +" miles";
 		} else {
-			dist = (parseFloat(dist) == dist)? "~"+dist+" meters" : dist = "unknown";
+			dist = (parseFloat(dist) == dist)? dist+" meters" : dist = "unknown";
 		}
 		return dist;
 	},
