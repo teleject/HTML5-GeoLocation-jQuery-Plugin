@@ -250,9 +250,6 @@ if (typeof(jQuery) == 'undefined')
 		tc 				= 0;
 		i 				= 0;
 
-		options.selector 	= this.selector;
-
-
 		if ((typeof(google) == 'undefined') || (typeof(google.load) == 'undefined') || (typeof(google.maps) == 'undefined')) {
 			$(this).loadGoogle();
 			return;
